@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FINALFINAL"
+        tools:targetApi="31">
+        <activity
+            android:name=".theend"
+            android:exported="false" />
+        <activity
+            android:name=".S13_FF"
+            android:exported="false" />
+        <activity
+            android:name=".s12_ASF"
+            android:exported="false" />
+        <activity
+            android:name=".s11_CF"
+            android:exported="false" />
+        <activity
+            android:name=".s10_SOTS"
+            android:exported="false" />
+        <activity
+            android:name=".s9_WH"
+            android:exported="false" />
+        <activity
+            android:name=".s8_EW"
+            android:exported="false" />
+        <activity
+            android:name=".s7_GSAMM"
+            android:exported="false" />
+        <activity
+            android:name=".s6_FM"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".S5_AHWP"
+            android:exported="false" />
+        <activity
+            android:name=".s4_RS"
+            android:exported="false" />
+        <activity
+            android:name=".s3_CB"
+            android:exported="false" />
+        <activity
+            android:name=".s2_FD"
+            android:exported="false" />
+        <activity
+            android:name=".S1_AFB"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
